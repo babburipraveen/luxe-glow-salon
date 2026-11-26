@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe & Glow | Premium Salon</title>
+  <meta name="description" content="Discover premium hair, skin and beauty services at Luxe & Glow Studio in Uppal, Hyderabad.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">LUXE <span>& GLOW</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#booking" class="nav-btn">Book Appointment</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">BEAUTY • STYLE • CONFIDENCE</p>
+        <h1>Discover Your<br><span>Beautiful Side.</span></h1>
+        <p class="hero-description">
+          Experience premium hair, skin and beauty care
+          designed to make you feel confident and beautiful.
+        </p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn">Book an Appointment</a>
+          <a href="#services" class="text-link">Explore Services →</a>
+        </div>
+        <p class="location">📍 Uppal, Hyderabad</p>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image"></div>
+      <div class="about-content">
+        <p class="eyebrow">WELCOME TO LUXE & GLOW</p>
+        <h2>Beauty is an experience, not just a service.</h2>
+        <p>
+          Enjoy a relaxing salon experience with personalised
+          beauty services in a welcoming environment.
+          Our goal is to help every guest look and feel their best.
+        </p>
+        <a href="#booking" class="btn">Visit Our Studio</a>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT WE OFFER</p>
+        <h2>Our Signature Services</h2>
+        <p>Give yourself the care and attention you deserve.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-image hair"></div>
+          <h3>Hair Styling</h3>
+          <p>Haircuts, styling and hair treatments.</p>
+          <span>Starting at ₹499</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-image skin"></div>
+          <h3>Skin Care</h3>
+          <p>Facials and personalised skin care.</p>
+          <span>Starting at ₹799</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-image makeup"></div>
+          <h3>Makeup</h3>
+          <p>Party makeup and special occasion looks.</p>
+          <span>Starting at ₹1,499</span>
+        </article>
+      </div>
+      <p class="demo-note">Demo prices only — confirm actual prices with the salon.</p>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">OUR WORK</p>
+        <h2>Beauty in Every Detail</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700" alt="Hair styling">
+        <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=700" alt="Beauty portrait">
+        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=700" alt="Beauty products">
+      </div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="section-heading">
+        <p class="eyebrow">YOUR BEAUTY JOURNEY STARTS HERE</p>
+        <h2>Book Your Appointment</h2>
+        <p>Send us your details and we'll connect with you.</p>
+      </div>
+
+      <form id="bookingForm">
+        <input type="text" id="customerName" placeholder="Your name" required>
+        <input type="tel" id="customerPhone" placeholder="Phone number" required>
+        <select id="service" required>
+          <option value="">Choose a service</option>
+          <option>Hair Styling</option>
+          <option>Skin Care</option>
+          <option>Makeup</option>
+        </select>
+        <input type="date" id="bookingDate" required>
+        <button type="submit" class="btn">Book via WhatsApp</button>
+      </form>
+      <p class="demo-note">This demo opens WhatsApp with your booking request.</p>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">COME SAY HELLO</p>
+      <h2>We'd Love to See You</h2>
+      <p>Uppal, Hyderabad, Telangana</p>
+      <p>Phone: +91 XXXXX XXXXX</p>
+      <a href="#booking" class="btn">Contact Us</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo">LUXE <span>& GLOW</span></a>
+    <p>© 2026 Luxe & Glow Studio. Demo website.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
